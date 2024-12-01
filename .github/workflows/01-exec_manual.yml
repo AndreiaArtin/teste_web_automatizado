@@ -24,4 +24,4 @@ jobs:
       run: yarn cypress install
       
     - name: Executando Testes
-      run: yarn run e2e
+      run: yarn run e2e cypress run
